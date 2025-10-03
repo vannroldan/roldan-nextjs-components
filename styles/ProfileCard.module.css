@@ -1,0 +1,40 @@
+.vpCardShell {
+  background: #ffffff;
+  border: 2px solid #00bbf9;
+  border-radius: 14px;
+  max-width: 320px;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.18);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.vpCardShell:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 12px 22px rgba(0, 0, 0, 0.25);
+}
+
+.vpProfileImage {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 12px;
+  border: 3px solid #72efdd;
+}
+
+.vpName {
+  font-size: 1.5rem;
+  margin: 8px 0;
+  color: #5a189a;
+}
+
+.vpAge {
+  font-weight: bold;
+  color: #00bbf9;
+}
+
+.vpDescription {
+  font-size: 0.95rem;
+  color: #444;
+}

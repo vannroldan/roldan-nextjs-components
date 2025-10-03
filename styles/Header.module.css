@@ -1,0 +1,17 @@
+.vpHeaderBox {
+  text-align: center;
+  padding: 20px;
+  background: #5a189a;
+  color: white;
+}
+
+.vpHeaderTitle {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.vpHeaderSubtitle {
+  font-size: 1.2rem;
+  margin-top: 6px;
+  color: #72efdd;
+}
